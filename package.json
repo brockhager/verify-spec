@@ -1,0 +1,12 @@
+{
+  "name": "verify-spec",
+  "version": "0.1.0",
+  "description": "Protocol rules and verification library for the Verify project",
+  "type": "module",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test" }
+}
